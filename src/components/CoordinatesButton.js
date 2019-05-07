@@ -5,7 +5,7 @@ export default class CoordinatesButton extends React.Component {
   handleClick = (e) => {
     const data = [e.clientX, e.clientY];
     this.props.onReceiveCoordinates(data);
-  }
+  };
 
   Render(){
     return(
